@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/SteelBlue</item>
+        <item name="colorPrimaryDark">@color/SteelBlue</item>
+        <item name="colorAccent">@color/CornflowerBlue</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorBackground">@color/SteelBlue</item>
+
+    </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/AntiqueWhite</item>
+        <item name="android:textColorSecondary">@color/AntiqueWhite</item>
+    </style>
+
+</resources>
